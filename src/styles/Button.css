@@ -1,0 +1,31 @@
+.btn {
+    width: 250px;
+    height: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    font-family: "Quicksand";
+    font-weight: 400;
+    font-size: 2rem;
+    border: none;
+    transition: transform 0.3s ease;
+    background-color: transparent;
+    color : #3a3c6f;  
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    
+}
+
+
+.btn:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #3a3c6f;  
+    transform: scaleX(0);  
+    transition: transform 500ms ease-in-out;
+    padding-bottom: 5px;
+  }
+  .btn:hover:after { transform: scaleX(1); }
+  .btn:after{ transform-origin: 0% 50%; }

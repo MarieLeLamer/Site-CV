@@ -1,0 +1,90 @@
+.all {
+    height: 100vh;
+    background-color: #d67971;
+    color: #f2f2f2  ;
+}
+
+.connaitre {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.encadre {
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    margin: 50px;
+    font-size: 1.3rem;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+
+.encadre:hover {
+    transform: scale(1.1);
+}
+
+@keyframes clippath {
+    0%,
+    100% {
+        clip-path: inset(0 0 95% 0);
+    }
+    25% {
+        clip-path: inset(0 95% 0 0);
+    }
+    50% {
+        clip-path: inset(95% 0 0 0);
+    }
+    75% {
+        clip-path: inset(0 0 0 95%);
+    }
+}
+
+.encadre:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #3a3c6f;
+    border-radius: 5px;
+    animation: clippath 4s infinite linear;
+}
+
+li{
+    margin: 30px;
+}
+
+#logo-loisirs{
+    background-image: url('../assets/passe-temps.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    list-style-type: none;
+    margin-top: 80px;
+}
+
+#logo-exp{
+    background-image: url('../assets/valise.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    list-style-type: none;
+}

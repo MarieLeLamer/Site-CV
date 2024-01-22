@@ -1,0 +1,206 @@
+.portfolio {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* gère défilement texte */
+.scrollcontainerup,
+.scrollcontainerdown {
+    border: 3px solid #7ac5b0;
+    background-color: #7ac5b0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.scrollcontainerdown {
+    bottom: 0;
+    position: absolute;
+}
+
+.scrollcontainerup {
+    flex: 1;
+}
+
+.portfolio .scrollingtextup,
+.scrollingtextdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .scrollingtextup p,
+.scrollingtextdown p {
+    margin: 10px 300px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3a3c6f;
+}
+
+.scrollingtextup {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animationup 15s linear infinite;
+}
+
+@-webkit-keyframes my-animationup {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes my-animationup {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    to {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.scrollingtextdown {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+
+    -moz-animation: my-animation 20s linear infinite;
+    -webkit-animation: my-animation 20s linear infinite;
+    animation: my-animationdown 20s linear infinite;
+}
+
+@-webkit-keyframes my-animationdown {
+    from {
+        -webkit-transform: translateX(-100%);
+    }
+    to {
+        -webkit-transform: translateX(100%);
+    }
+}
+
+@keyframes my-animationdown {
+    from {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    to {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+
+.website {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #3a3c6f;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url('../assets/background.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+
+/* gére lyrics finder */
+.lyricsfinder,
+.description {
+    text-align: center;
+}
+
+img,
+.description {
+    transition: 0.3s all;
+    border-radius: 3px;
+}
+
+.lyricsfinder {
+    float: left;
+    max-width: 40%;
+    position: relative;
+    margin: 0.5%;
+    img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+}
+
+.lyricsfinder .description {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+.lyricsfinder:hover {
+    .description {
+        opacity: 1;
+    }
+    img {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+    }
+}
+
+
+/* gère les incoming */
+.incoming,
+.description {
+    text-align: center;
+}
+
+img,
+.description {
+    transition: 0.3s all;
+    border-radius: 3px;
+}
+
+.incoming {
+    float: left;
+    max-width: 40%;
+    position: relative;
+    margin: 0.5%;
+    img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+}
+
+.incoming:hover {
+    .description {
+        opacity: 1;
+    }
+    img {
+        -webkit-filter: blur(4px);
+        filter: blur(4px) brightness(80%);
+    }
+}
+
+.incoming .description {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    opacity: 0;
+}
