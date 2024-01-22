@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9b53675.css",
-    "main.js": "/static/js/main.8d1a9fa8.js",
-    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/lyricsfinder.png": "/static/media/lyricsfinder.ffa6f071241500d3067c.png",
-    "static/media/background.jpg": "/static/media/background.999f88335db156fb63c8.jpg",
-    "static/media/comingsoon.jpg": "/static/media/comingsoon.6933e8c45686ac2c3cdf.jpg",
-    "static/media/passe-temps.png": "/static/media/passe-temps.1036c7cdc4a622355b78.png",
-    "index.html": "/index.html",
-    "main.b9b53675.css.map": "/static/css/main.b9b53675.css.map",
-    "main.8d1a9fa8.js.map": "/static/js/main.8d1a9fa8.js.map",
-    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+    "main.css": "./static/css/main.45296716.css",
+    "main.js": "./static/js/main.95e50935.js",
+    "static/js/787.7da95b79.chunk.js": "./static/js/787.7da95b79.chunk.js",
+    "static/media/lyricsfinder.png": "./static/media/lyricsfinder.ffa6f071241500d3067c.png",
+    "static/media/background.jpg": "./static/media/background.999f88335db156fb63c8.jpg",
+    "static/media/comingsoon.jpg": "./static/media/comingsoon.6933e8c45686ac2c3cdf.jpg",
+    "static/media/passe-temps.png": "./static/media/passe-temps.1036c7cdc4a622355b78.png",
+    "index.html": "./index.html",
+    "main.45296716.css.map": "./static/css/main.45296716.css.map",
+    "main.95e50935.js.map": "./static/js/main.95e50935.js.map",
+    "787.7da95b79.chunk.js.map": "./static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9b53675.css",
-    "static/js/main.8d1a9fa8.js"
+    "static/css/main.45296716.css",
+    "static/js/main.95e50935.js"
   ]
 }
