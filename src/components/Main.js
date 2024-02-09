@@ -4,8 +4,8 @@ import "../styles/Main.css";
 function Main() {
     return (
         <div className="main">
-            <h1 className="h1">Marie LE LAMER</h1>
-            <div>
+            <h1>Marie LE LAMER</h1>
+            <div className="divBtn">
                 <Button
                     txt="Me connaître"
                     onclick={() => {

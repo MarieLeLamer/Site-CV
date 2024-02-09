@@ -1,7 +1,7 @@
 .all {
     height: 100vh;
     background-color: #d67971;
-    color: #f2f2f2  ;
+    color: #f2f2f2;
 }
 
 .connaitre {
@@ -66,12 +66,12 @@ h5 {
     animation: clippath 4s infinite linear;
 }
 
-li{
+li {
     margin: 30px;
 }
 
-#logo-loisirs{
-    background-image: url('../assets/passe-temps.png');
+#logo-loisirs {
+    background-image: url("../assets/passe-temps.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,11 +80,77 @@ li{
     margin-top: 80px;
 }
 
-#logo-exp{
-    background-image: url('../assets/valise.png');
+#logo-exp {
+    background-image: url("../assets/valise.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 80px;
     list-style-type: none;
+}
+
+/* Media queries pour rendre le site responsive */
+
+@media screen and (max-width: 880px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    .encadre {
+        width: 90%;
+        height: 30%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    h5 {
+        font-size: 1.2rem;
+    }
+    .encadre {
+        width: 90%;
+        height: 30%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    h5 {
+        font-size: 1.1rem;
+    }
+    .encadre {
+        width: 90%;
+        height: 30%;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .encadre {
+        margin: 5px;
+        width: 90%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    h5{
+        font-size: 1rem;
+        margin: 2px;
+    }
+    .connaitre {
+        flex-wrap: wrap;
+        font-size: 0.5rem;
+        margin: 1px;
+        height: 100vh;
+    }
+    li{
+        margin: 2px;
+    }
+    #logo-exp{
+        height: 40px;
+    }
 }

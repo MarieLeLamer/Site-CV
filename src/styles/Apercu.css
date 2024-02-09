@@ -1,0 +1,78 @@
+img,
+.description {
+    transition: 0.3s all;
+    border-radius: 3px;
+}
+
+.lyricsfinder {
+    float: left;
+    width: 500px;
+    position: relative;
+    margin: 0.5%;
+    img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+}
+
+.lyricsfinder .description {
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0;
+}
+
+.lyricsfinder:hover {
+    .description {
+        opacity: 1;
+    }
+    img {
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+    }
+}
+
+img,
+.description {
+    transition: 0.3s all;
+    border-radius: 3px;
+}
+
+.incoming {
+    float: left;
+    width: 500px;
+    position: relative;
+    margin: 0.5%;
+    img {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+}
+
+.incoming:hover {
+    .description {
+        opacity: 1;
+    }
+    img {
+        -webkit-filter: blur(4px);
+        filter: blur(4px) brightness(80%);
+    }
+}
+
+.incoming .description {
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    opacity: 0;
+}
+

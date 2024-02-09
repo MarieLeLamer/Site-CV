@@ -10,22 +10,61 @@
     border: none;
     transition: transform 0.3s ease;
     background-color: transparent;
-    color : #3a3c6f;  
+    color: #3a3c6f;
 }
 
 .btn:hover {
     transform: scale(1.2);
-    
 }
 
-
 .btn:after {
-    display:block;
-    content: '';
-    border-bottom: solid 3px #3a3c6f;  
-    transform: scaleX(0);  
+    display: block;
+    content: "";
+    border-bottom: solid 3px #3a3c6f;
+    transform: scaleX(0);
     transition: transform 500ms ease-in-out;
     padding-bottom: 5px;
-  }
-  .btn:hover:after { transform: scaleX(1); }
-  .btn:after{ transform-origin: 0% 50%; }
+}
+.btn:hover:after {
+    transform: scaleX(1);
+}
+.btn:after {
+    transform-origin: 0% 50%;
+}
+
+@media screen and (max-width: 1050px) {
+    .btn {
+        font-size: 1.5rem;
+        margin: 30px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .btn {
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .btn {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .btn {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .btn {
+        width: 160px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .btn {
+        width: 250px;
+    }
+}

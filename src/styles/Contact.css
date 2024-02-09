@@ -5,6 +5,9 @@
     color: #d67961;
 }
 
+form{
+    width: 60%;
+}
 .form {
     width: 100%;
     display: flex;
@@ -32,7 +35,7 @@ input {
     font-family: 'Quicksand';
     padding: 10px;
     margin-bottom: 10px;
-    width: 300px;
+    width: 60%;
     font-size: 1rem;
     background-color: transparent;
     border: none;
@@ -47,7 +50,7 @@ input {
 textarea {
     font-family: 'Quicksand';
     font-size: 1rem;
-    width: 300px;
+    width: 60%;
     height: 200px;
     padding: 10px;
     border: none;
@@ -82,7 +85,7 @@ textarea:focus {
 }
 
 .remerciements{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .name{
@@ -98,4 +101,17 @@ textarea:focus {
 .intro{
     margin-top: 30px;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 630px){
+
+    form{
+width: 90%;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    .intro{
+        font-size: 1rem;
+    }
 }

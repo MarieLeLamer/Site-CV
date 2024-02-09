@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import "../styles/Portfolio.css";
 import lyricsfinderImage from "../assets/lyricsfinder.png";
 import comingsoon from "../assets/comingsoon.jpg";
+import Apercu from "./Apercu";
 
 function Portfolio() {
     const targetElementRef = useRef(null);
@@ -36,31 +37,13 @@ function Portfolio() {
                 </div>
             </div>
             <div className="website">
-                <div className="lyricsfinder">
-                    <a href="https://marielelamer.github.io/Lyrics-Finder/">
-                        <img src={lyricsfinderImage} alt="Page d'accueil de Lyrics Finder" />
-                        <p className="description">Lyrics Finder : projet Dataviz API</p>
-                    </a>
-                </div>
+                <Apercu divClassName="lyricsfinder" hRef="https://marielelamer.github.io/Lyrics-Finder/" imgSrc={lyricsfinderImage} imgAlt="Page d'accueil de Lyrics Finder" pClassname="description" pDescription="Lyrics Finder : projet Dataviz API" />
 
-                <div className="incoming">
-                    <a href="#">
-                        <img src={comingsoon} alt="A venir" />
-                        <p className="description">A venir</p>
-                    </a>
-                </div>
-                <div className="incoming">
-                    <a href="#">
-                        <img src={comingsoon} alt="A venir" />
-                        <p className="description">A venir</p>
-                    </a>
-                </div>
-                <div className="incoming">
-                    <a href="#">
-                        <img src={comingsoon} alt="A venir" />
-                        <p className="description">A venir</p>
-                    </a>
-                </div>
+                <Apercu divClassName="incoming" hRef="#" imgSrc={comingsoon} imgAlt="A venir" pClassname="description" pDescription="A venir" />
+
+                <Apercu divClassName="incoming" hRef="#" imgSrc={comingsoon} imgAlt="A venir" pClassname="description" pDescription="A venir" />
+
+                <Apercu divClassName="incoming" hRef="#" imgSrc={comingsoon} imgAlt="A venir" pClassname="description" pDescription="A venir" />
             </div>
             <div className="scrollcontainerdown">
                 <div className="scrollingtextdown">
