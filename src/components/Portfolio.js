@@ -2,7 +2,9 @@ import { useEffect, useRef } from "react";
 import "../styles/Portfolio.css";
 import lyricsfinderImage from "../assets/lyricsfinder.png";
 import comingsoon from "../assets/comingsoon.jpg";
+import zinzinszestes from "../assets/leszinzinszestes.png"
 import Apercu from "./Apercu";
+
 
 function Portfolio() {
     const targetElementRef = useRef(null);
@@ -39,7 +41,7 @@ function Portfolio() {
             <div className="website">
                 <Apercu divClassName="lyricsfinder" hRef="https://marielelamer.github.io/Lyrics-Finder/" imgSrc={lyricsfinderImage} imgAlt="Page d'accueil de Lyrics Finder" pClassname="description" pDescription="Lyrics Finder : projet Dataviz API" />
 
-                <Apercu divClassName="incoming" hRef="#" imgSrc={comingsoon} imgAlt="A venir" pClassname="description" pDescription="A venir" />
+                <Apercu divClassName="zinzinszestes" hRef="#" imgSrc={zinzinszestes} imgAlt="Aperçu d'une page des Zinzins Zestés" pClassname="description" pDescription="Les zinzins zestés : reprise d'une code base pour développer un réseau social" />
 
                 <Apercu divClassName="incoming" hRef="#" imgSrc={comingsoon} imgAlt="A venir" pClassname="description" pDescription="A venir" />
 

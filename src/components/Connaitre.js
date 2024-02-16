@@ -5,7 +5,7 @@ function Connaitre() {
     const targetElementRef = useRef(null);
 
     useEffect(() => {
-        // Écoutez l'événement personnalisé et effectuez le défilement
+        // Écouter l'événement personnalisé et effectuez le défilement
         const handleScrollButtonClick = () => {
             if (targetElementRef.current) {
                 targetElementRef.current.scrollIntoView({
@@ -15,10 +15,10 @@ function Connaitre() {
             }
         };
 
-        // Ajoutez l'écouteur d'événement
+        // Ajouter l'écouteur d'événement
         document.addEventListener("scrollButtonClickConnaitre", handleScrollButtonClick);
 
-        // Nettoyez l'écouteur d'événement lors du démontage du composant
+        // Nettoyer l'écouteur d'événement lors du démontage du composant
         return () => {
             document.removeEventListener("scrollButtonClickConnaitre", handleScrollButtonClick);
         };
@@ -27,7 +27,7 @@ function Connaitre() {
 
     const competences = ["Anglais niveau C1", "Allemand niveau A2", "Travail en équipe, écoute, patience", "HTML", "CSS", "Javascript", "Python", "Java"];
 
-    const loisirs = ["La lecture", "Les voyages", "La pâtisserie", "Les jeux-vidéos"];
+    const loisirs = ["La lecture", "La pâtisserie", "Les jeux-vidéos"];
 
     return (
         <div ref={targetElementRef} className="all">
