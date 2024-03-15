@@ -71,6 +71,7 @@ textarea:focus {
 .center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .envoyer {

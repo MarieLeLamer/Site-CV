@@ -3,6 +3,7 @@ import "../styles/Portfolio.css";
 import lyricsfinderImage from "../assets/lyricsfinder.png";
 import comingsoon from "../assets/comingsoon.jpg";
 import zinzinszestes from "../assets/leszinzinszestes.png"
+import adopteunmeuble from "../assets/adopteunpeuble.png"
 import Apercu from "./Apercu";
 
 
@@ -39,11 +40,11 @@ function Portfolio() {
                 </div>
             </div>
             <div className="website">
-                <Apercu divClassName="lyricsfinder" hRef="https://marielelamer.github.io/Lyrics-Finder/" imgSrc={lyricsfinderImage} imgAlt="Page d'accueil de Lyrics Finder" pClassname="description" pDescription="Lyrics Finder : projet Dataviz API" />
+                <Apercu divClassName="lyricsfinder" hRef="https://marielelamer.github.io/Lyrics-Finder/" imgSrc={lyricsfinderImage} imgAlt="Page d'accueil de Lyrics Finder" pClassname="description" pDescription="Lyrics Finder : réalisation d'un site Web simple pour traiter des données et les afficher" />
 
-                <Apercu divClassName="zinzinszestes" hRef="#" imgSrc={zinzinszestes} imgAlt="Aperçu d'une page des Zinzins Zestés" pClassname="description" pDescription="Les zinzins zestés : reprise d'une code base pour développer un réseau social" />
+                <Apercu divClassName="zinzinszestes" hRef="https://github.com/MarieLeLamer/projet-collectif-r-seau-social-php-les-zinzins-zestes" imgSrc={zinzinszestes} imgAlt="Aperçu d'une page des Zinzins Zestés" pClassname="description" pDescription="Les zinzins zestés : reprise d'une code base pour développer un réseau social" />
 
-                <Apercu divClassName="incoming" hRef="#" imgSrc={comingsoon} imgAlt="A venir" pClassname="description" pDescription="A venir" />
+                <Apercu divClassName="adopteunmeuble" hRef="https://github.com/MarieLeLamer/adopte-un-meuble" imgSrc={adopteunmeuble} imgAlt="Aperçu d'une page de Adopte un meuble" pClassname="description" pDescription="Adopte un meuble : réalisation dans son entièreté d'une plateforme de vente de meuble" />
 
                 <Apercu divClassName="incoming" hRef="#" imgSrc={comingsoon} imgAlt="A venir" pClassname="description" pDescription="A venir" />
             </div>
