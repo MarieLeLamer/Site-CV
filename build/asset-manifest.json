@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.280434b5.css",
-    "main.js": "./static/js/main.d713b764.js",
+    "main.css": "./static/css/main.e474c538.css",
+    "main.js": "./static/js/main.992ea764.js",
     "static/js/787.7da95b79.chunk.js": "./static/js/787.7da95b79.chunk.js",
     "static/media/lyricsfinder.png": "./static/media/lyricsfinder.ffa6f071241500d3067c.png",
     "static/media/leszinzinszestes.png": "./static/media/leszinzinszestes.698812637f113b27f2cc.png",
+    "static/media/adopteunmeuble.png": "./static/media/adopteunmeuble.887b6a5e614bc5cbf0ba.png",
     "static/media/background.jpg": "./static/media/background.999f88335db156fb63c8.jpg",
     "static/media/comingsoon.jpg": "./static/media/comingsoon.6933e8c45686ac2c3cdf.jpg",
     "static/media/passe-temps.png": "./static/media/passe-temps.1036c7cdc4a622355b78.png",
     "index.html": "./index.html",
-    "main.280434b5.css.map": "./static/css/main.280434b5.css.map",
-    "main.d713b764.js.map": "./static/js/main.d713b764.js.map",
+    "main.e474c538.css.map": "./static/css/main.e474c538.css.map",
+    "main.992ea764.js.map": "./static/js/main.992ea764.js.map",
     "787.7da95b79.chunk.js.map": "./static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.280434b5.css",
-    "static/js/main.d713b764.js"
+    "static/css/main.e474c538.css",
+    "static/js/main.992ea764.js"
   ]
 }
